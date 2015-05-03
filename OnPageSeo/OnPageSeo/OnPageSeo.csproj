@@ -11,6 +11,10 @@
     <AssemblyName>OnPageSeo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,7 +49,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BlogEngine\BlogEngine.Core\BlogEngine.Core.csproj">
+    <ProjectReference Include="..\..\BlogEngine.NET 3.1 %28source%29\BlogEngine\BlogEngine.Core\BlogEngine.Core.csproj">
       <Project>{9ed9914a-fb6e-4d21-8c71-9122e8c3076b}</Project>
       <Name>BlogEngine.Core</Name>
     </ProjectReference>
