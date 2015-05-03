@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BlogEngine.Core">
-      <HintPath>Assemblies\BlogEngine.Core.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -46,6 +43,12 @@
   <ItemGroup>
     <Compile Include="OnPageSeo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BlogEngine\BlogEngine.Core\BlogEngine.Core.csproj">
+      <Project>{9ed9914a-fb6e-4d21-8c71-9122e8c3076b}</Project>
+      <Name>BlogEngine.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
